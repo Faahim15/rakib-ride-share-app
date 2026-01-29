@@ -294,9 +294,9 @@ const LiveChatScreen: React.FC = () => {
                 onChangeText={setInputText}
                 multiline
               />
-              <TouchableOpacity onPress={() => setShowAttachModal(true)}>
+              {/* <TouchableOpacity onPress={() => setShowAttachModal(true)}>
                 <Ionicons name="attach" size={20} color="#666" />
-              </TouchableOpacity>
+              </TouchableOpacity> */}
             </View>
 
             <TouchableOpacity
